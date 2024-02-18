@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "js5Xd6IDv5NdAwE9Uyt7Wju/aDgAM7WIyU+7GJL+G986GwLSXKUOWZz9S36Qigf1/vsLk5VhlPd/4F5NnCpszg==",
+  "dgSpecHash": "abFnBWeFO4CLWMi3PgOGIFpTGJtAkZPcMeOccPDpJO6zEph0ODpDhZmPykko5L4AMa77dmpjNefHMq/U10JiTw==",
   "success": true,
-  "projectFilePath": "D:\\Leetcode\\leetcode.csproj",
+  "projectFilePath": "D:\\leetcode\\leetcode.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

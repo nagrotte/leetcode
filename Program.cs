@@ -32,7 +32,21 @@
 
         Console.WriteLine($"No, Not a Palindrome");
         }
+    
+/*Pure Recursion - Memo*/
+
+    Console.WriteLine($"Lattice Paths for a given input using Pure Recursion Memo method :" + PureRecurseMemo.LatticePaths(20,20));    
+    
+
+/*Helper Recursion - Memo*/
+
+  RecurseHelperMemo.wrapper("Naga Raja Sharma Rotte");
+
+
+
     }
+ 
+ 
 }
 
 
