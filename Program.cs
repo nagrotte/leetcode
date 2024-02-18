@@ -40,13 +40,29 @@
 
 /*Helper Recursion - Memo*/
 
-  RecurseHelperMemo.wrapper("Naga Raja Sharma Rotte");
+    RecurseHelperMemo.wrapper("Naga Rotte");
+
+/*RecursionHelperwithoutMemo*/
+
+    RecursionHelperwithoutMemo.wrapper("Nag Rotte"); 
 
 
+/*Bit Array Sorting*/
 
+    int[] arr = {1,1,0,1,0,0,1,0};
+    
+    int[] sortedArr = BitArraySorting.BitArraySort(arr); //
+    foreach (int num in sortedArr) {
+      Console.Write(num + " ");
     }
+
+
+
+
+    }//Main Method
+
  
  
-}
+} //Class
 
 
