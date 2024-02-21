@@ -53,13 +53,33 @@
     
     int[] sortedArr = BitArraySorting.BitArraySort(arr); //
     foreach (int num in sortedArr) {
-      Console.Write(num + " ");
+      Console.WriteLine(num + " ");
     }
+//Pure Fibonacci
 
+    Console.WriteLine("nth fib:"  + fibonacci.Pure_Fib(25));
 
+//Memo Fibonacci
 
+    Console.WriteLine("nth fib:"  + fibonacci.Memo_Fib(25));
 
-    }//Main Method
+//Tab Fibonacci
+
+    Console.WriteLine("nth fib:"  + fibonacci.Tab_Fib(100));
+
+//Tab memo Fibonacci
+
+   // Console.WriteLine("nth fib:"  + fibonacci.Tab_Fib_Memo(100));
+
+//anagram
+        string[] input = { "eat", "tea", "tan", "ate", "nat", "bat" };
+        IList<IList<string>> result1 = Anagrams.GroupAnagrams(input);
+
+        foreach (var kvp in result1)
+        {
+            Console.WriteLine($"Anagrams for sorted string '{string.Join("", kvp)}': {string.Join(", ", kvp)}");
+        }
+}//Main Method
 
  
  
